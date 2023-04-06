@@ -1,0 +1,100 @@
+
+
+
+
+  
+  .container{
+    text-align: center;
+    margin: 5px;
+    font-size: 13px;
+  }
+    
+
+  h1{
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
+
+  }
+
+  .offer{
+    display: inline-block;
+    width: 400px;
+    margin: 4px;
+    text-align: center;
+    border: 1px solid #cccccc ;
+    border-radius: 1px;
+    box-shadow: 0px 2px 2px #dddddd, 0px 0px 5px #dddddd;
+
+  }
+
+  .container{
+    margin: 5px;
+    font-size: 13px;
+    text-align: center;
+
+  }
+
+  .offerContents{
+    padding: 20px;
+    border-bottom: 2px;
+    background-color: #fafafa;
+    border-bottom-right-radius: 2px;
+
+  }
+  
+  .offerTitle{
+    text-align: center;
+    font-size: 14px bold;
+    color: #ffffff;
+    background-color: #00b3b3;
+    padding: 15px;
+  }
+
+
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  table {
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0px 2px 2px #dddddd, 0px 0px 5px #dddddd;
+
+  }
+
+  th{
+    font-size: 12px;
+    color: #777777;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #f1f1f1;
+
+  }
+
+  td{
+    color: #444444;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    border: 1px solid #f1f1f1;
+
+
+  }
+
+
+  .finalValue{
+    color: #2222ff;
+    font-weight: bold;
+
+  }
+
+  
+  
+  
